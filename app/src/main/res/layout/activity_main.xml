@@ -13,9 +13,9 @@
         android:id="@+id/txtTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tính tổng 2 số"
+        android:text="Phép tính đơn giản"
         android:textSize="25dp"
-        android:textColor="#FF00FF"
+        android:textColor="#00F"
         android:gravity="center" />
     <EditText
         android:id="@+id/edNhap1"
@@ -27,14 +27,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nhập số thứ 2" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <Button
-        android:id="@+id/btTinh"
+        android:id="@+id/btCong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Tính" />
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btTru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+    <Button
+        android:id="@+id/btNhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x" />
+    <Button
+        android:id="@+id/btChia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":" />
+    </LinearLayout>
     <TextView
         android:id="@+id/txtTong"
+        android:paddingTop="@dimen/activity_horizontal_margin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"

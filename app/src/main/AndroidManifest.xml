@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Second"></activity>
+        <activity android:name=".Second" />
+        <activity android:name=".Tru" />
+        <activity android:name=".Nhan" />
+        <activity android:name=".Chia"></activity>
     </application>
 
 </manifest>
